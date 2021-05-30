@@ -1,0 +1,59 @@
+/* var numbers = [10, 20, 30, 40]
+var map = numbers.map(myfunction)
+function myfunction(value, index, array) {
+    return value * 5
+}
+console.log(map) */
+//filter method//
+/* var numbers=[2,4,6,8]
+var filter =numbers.filter(myfunction)
+function myfunction(value,index,array){
+    return value > 2
+}
+console.log(filter) */
+//reduce method//
+/* var numbers = [2,4,5,6,7,8]
+var reducemethod = numbers.reduce(myfunction)
+function myfunction(total,value, index, array) {
+    return total=total+value
+}
+console.log(reducemethod)
+//reduce right//
+var numbers =[4,5,8,6,9]
+var reduceright=numbers.reduceRight(myfunction)
+function myfunction(sum,value,index,array){
+    return sum=sum+value
+}
+console.log(reduceright)
+//array.every//
+var numbers =[20,48,58,49]
+var every=numbers.every(myfunction)
+function myfunction(value,index,){
+    return value >= 20
+}
+console.log(every) */
+//some//
+/* var numbers=[2,5,8,9,6]
+var some=numbers.some(myfunction)
+function myfunction(value,index){
+    return value < 10
+}
+console.log(some) */
+//flat//
+/* var summulti=[[12,14,16,17,18],[10,13,17,18,19]]
+var flat=summulti.flat(1)
+console.log(flat) */
+//fatarrow//
+/* var numbers=[2,4,8,7]
+var some=numbers.some((value)=>{
+    return value<15
+})
+console.log(some) */
+/* //implicit return//
+var number=[2,4,8,7]
+var some=number.some((value)=>value < 15)
+console.log(some) */
+
+
+
+
